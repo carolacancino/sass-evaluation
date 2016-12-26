@@ -1,0 +1,71 @@
+.lupa{
+	background: #fff;
+	width: 232px;
+	float: right;
+	margin-top: 32px;
+	& .fs{
+		background: $color-principal url(../ico/search.png) no-repeat center;
+		border: none;
+		//margin: 0;
+		height: 34px;
+		width: 43px;
+		float: right;
+	}
+}
+.logo{
+	
+	height: auto;
+	margin: 38px 0 21px 0;
+	float: left;
+	width: auto;
+}
+.logo .ft {
+	background: none;
+	padding: 6px;
+	margin: 5px 0 0 12px;
+	width: 155px;
+	color: $color-letras;
+}
+nav#nav {
+	float: left;
+	border-bottom: 1px solid $color-principal;
+	width: 100%;
+	margin-top: 22px;
+	//clear: both;
+}
+.menu{
+	list-style-type:none;
+	clear:both;
+	margin:0;
+	padding:0;
+	& li{
+		float:left;
+		margin-right:32px;
+		
+		& a{
+			font-family: $font;
+			border-bottom:2px solid #FFF;
+			padding:0 0 7px 0;
+			display:block;
+			position:relative;
+			color:$color-letras;
+			
+			font-size:15px;
+			font-weight:bold;
+			text-transform:uppercase;
+
+			& a:hover{
+				color:$color-letras;
+			}
+		}
+	}
+}
+.menu>li>a:hover{
+	border-bottom:2px solid $color-principal;
+	text-decoration:none;
+}
+.menu li.inicio>a{
+	color:$color-letras;
+	border-bottom:3px solid $color-principal;
+	text-decoration:none;
+}
