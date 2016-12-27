@@ -13,7 +13,7 @@
 	}
 }
 .logo{
-	
+
 	height: auto;
 	margin: 38px 0 21px 0;
 	float: left;
@@ -31,25 +31,25 @@ nav#nav {
 	border-bottom: 1px solid $color-principal;
 	width: 100%;
 	margin-top: 22px;
-	//clear: both;
+	margin-bottom: 45px;
+	clear: both;
 }
 .menu{
 	list-style-type:none;
 	clear:both;
-	margin:0;
-	padding:0;
+
 	& li{
 		float:left;
 		margin-right:32px;
-		
+
 		& a{
 			font-family: $font;
-			border-bottom:2px solid #FFF;
+			border-bottom:2px solid $letras;
 			padding:0 0 7px 0;
 			display:block;
 			position:relative;
 			color:$color-letras;
-			
+
 			font-size:15px;
 			font-weight:bold;
 			text-transform:uppercase;
@@ -61,7 +61,7 @@ nav#nav {
 	}
 }
 .menu>li>a:hover{
-	border-bottom:2px solid $color-principal;
+	border-bottom:3px solid $color-principal;
 	text-decoration:none;
 }
 .menu li.inicio>a{
